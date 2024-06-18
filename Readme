@@ -1,0 +1,6 @@
+to create a model
+Yolo task=detect mode=train epochs=150 patience=25 model=yolov8m.pt
+
+to run model 
+yolo model=yolov8m_custom.pt mode=predict task=detect show=True conf=0.5 source=16.jpg
+yolo model=best.pt mode=predict task=detect show=True conf=0.8 source=16.jpg 

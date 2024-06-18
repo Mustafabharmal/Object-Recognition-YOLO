@@ -1,0 +1,6 @@
+train: /home/shavak/Shruti_ICT_SEM_7/CP/train
+val: /home/shavak/Shruti_ICT_SEM_7/CP/val
+
+nc: 16
+
+names: ["circle_timer","gear_box_circle","gear_box_ovul","gear_box_design","drain_lever","godrej_inlet_valves","inlet_valves","lever","pressure_sensor","pressure_switch_1","pressure_switch_2","rectangle_timer","regulator","square_timer","ss_inlet_valves","voltas_beko_pressure_switch"]
